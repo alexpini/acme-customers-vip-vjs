@@ -7,6 +7,21 @@ body {
   color:  white;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+}
+
+.destroy {
+  width: 100px;
+}
+
 /* #employeeList {
 
 } */

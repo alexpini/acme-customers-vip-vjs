@@ -25,6 +25,7 @@ const render = () => {
   return `
     <li> ${customer.name}
     </li>
+    <button class='destroy'>Destroy</button>
     `;
   }).join('');
   employeeList.innerHTML = html;
