@@ -30,3 +30,9 @@ const render = () => {
   employeeList.innerHTML = html;
   };
   render();
+
+  employeeList.addEventListener ('click', (customer) => {
+    if (customer.target.tagName === 'LI') {
+      console.log(customer);
+    }
+  });
