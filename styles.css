@@ -10,16 +10,24 @@ body {
 ul {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+
 }
 
 li {
   display: flex;
-  flex-direction: row;
+}
+
+.destroy{
+  display: flex;
+  width: 100px;
 }
 
 .destroy {
-  width: 100px;
+
+}
+
+button {
+
 }
 
 /* #employeeList {

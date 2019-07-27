@@ -23,9 +23,10 @@ const render = () => {
   const html = customers.map(customer => {
 
   return `
-    <li> ${customer.name}
-    </li>
+    <li> ${customer.name} (${customer.email})
     <button class='destroy'>Destroy</button>
+    </li>
+
     `;
   }).join('');
   employeeList.innerHTML = html;
