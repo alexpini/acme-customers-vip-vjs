@@ -17,13 +17,14 @@ let customers = [
  ];
 
 const employeeList = document.querySelector('#employeeList');
+const employeeForm = document.querySelector('#employeeForm');
 
 
 const render = () => {
   const html = customers.map(customer => {
 
   return `
-    <li> ${customer.name} (${customer.email})
+    <li class='customer'> ${customer.name} (${customer.email})
     <button class='destroy'>Destroy</button>
     </li>
 

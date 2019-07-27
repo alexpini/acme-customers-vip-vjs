@@ -10,25 +10,40 @@ body {
 ul {
   display: flex;
   flex-direction: column;
+  align-items: space-between;
 
 }
 
 li {
   display: flex;
+  flex-grow: 3;
+  padding: 1rem;
 }
 
 .destroy{
   display: flex;
   width: 100px;
-}
-
-.destroy {
-
+  flex-grow: 1;
 }
 
 button {
-
+  height: 2rem;
+  width: 4rem;
+  font-size: 1rem;
 }
+
+div {
+  padding: 1rem;
+}
+
+#employeeForm {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+
 
 /* #employeeList {
 
