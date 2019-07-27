@@ -19,14 +19,14 @@ let customers = [
 const employeeList = document.querySelector('#employeeList');
 
 
- const render = () => {
-   const html = customers.map(customer => {
+const render = () => {
+  const html = customers.map(customer => {
 
-    return `
-     <li> ${customer.name}
-     </li>
-     `;
-   }).join('');
-   employeeList.innerHTML = html;
-   };
-   render();
+  return `
+    <li> ${customer.name}
+    </li>
+    `;
+  }).join('');
+  employeeList.innerHTML = html;
+  };
+  render();

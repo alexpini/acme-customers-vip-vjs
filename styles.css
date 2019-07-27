@@ -1,3 +1,12 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .vip {
   background-color: dodgerblue;
+  color:  white;
+}
+
+#employeeList {
+
 }
